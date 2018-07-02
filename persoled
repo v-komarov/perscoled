@@ -1,0 +1,10 @@
+service persoled
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    port = 11112
+    wait = no
+    user = root
+    server = /srv/persoled.py
+}
